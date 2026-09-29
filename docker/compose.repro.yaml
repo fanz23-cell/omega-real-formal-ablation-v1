@@ -1,0 +1,9 @@
+# 复现用的隔离容器compose定义（不是生产compose.yaml的一部分，也从不与其共享网络/挂载点）
+services:
+  omega_isolated_benchmark:
+    image: mindchildren/omegaclaw-core:fan_omegaclaw_ai_bt  # 见 IMAGE_PROVENANCE.md
+    container_name: omega_isolated_benchmark_repro
+    network_mode: none
+    entrypoint: ["sleep", "infinity"]
+    volumes:
+      - ./scratch_chroma:/PeTTa/repos/OmegaClaw-Core/memory/chroma_db

@@ -1,0 +1,5 @@
+metric,value
+n_calls,567
+total_input_tokens,15918615
+total_output_tokens,56473
+wall_clock_seconds,2209.3

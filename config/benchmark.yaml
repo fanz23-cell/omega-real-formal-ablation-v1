@@ -1,0 +1,23 @@
+study: omega_real_formal_ablation_v1
+date: 2026-09-28/29
+primary_question: >
+  Given identical structural-conflict recognition, does the REAL Omega MeTTa/NAL revision
+  engine's numeric output (frequency, confidence) add incremental decision value over a
+  deterministic typed conflict label alone?
+arms:
+  B0: STRUCTURED_NONFORMAL   # raw evidence only, no advisory block
+  B1: STRUCTURAL_CONFLICT_CONTROL  # + neutral typed advisory, numeric fields withheld
+  C:  REAL_OMEGA_NAL_REVISION      # + REAL numeric frequency/confidence from the real engine
+primary_contrast: C_vs_B1
+secondary_contrasts: [B1_vs_B0, C_vs_B0]
+geometries: [G1_SYMMETRIC_MEDIUM, G2_SYMMETRIC_HIGH, G3_SYMMETRIC_WEAK, G4_TRUE_STRONG,
+             G5_FALSE_STRONG, G6_NEAR_TIE_HIGH, G7_NEAR_TIE_MEDIUM, G8_HIGH_VS_LOW,
+             G9_REVERSE_HIGH_LOW]
+scales: [10, 100, 1000]
+reps_per_cell: 7
+n_confirmatory_cases: 189
+n_confirmatory_calls: 567
+calibration_scales: [10]
+calibration_reps_per_cell: 1
+n_calibration_cases: 9
+practically_meaningful_effect_pp: 10

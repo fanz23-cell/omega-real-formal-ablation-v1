@@ -1,0 +1,35 @@
+{
+  "live_container_images_at_investigation_time": {
+    "bison_client-omegaclaw-1": {
+      "digest": "sha256:4b14c13ef5eadda7f0a9ce34676bfe652db675e885175040dd4b21336e8a65e9",
+      "tag": "mindchildren/omegaclaw-core:fan_omegaclaw_ai_bt",
+      "restart_count": 0,
+      "started_at": "2026-09-26T22:30:01.005733035Z"
+    },
+    "bison_client-mc_world_state-1": {
+      "digest": "sha256:3c62b81aff7a1d95842a285eb99da405654f2729777fe7b8562872587ce3cb05",
+      "tag": "mindchildren/mc_world_state:fan_omegaclaw_ai_bt",
+      "restart_count": 0
+    }
+  },
+  "isolated_benchmark_container": {
+    "name": "omega_isolated_benchmark_20260928",
+    "image_digest": "sha256:4b14c13ef5eadda7f0a9ce34676bfe652db675e885175040dd4b21336e8a65e9",
+    "network_mode": "none",
+    "mounts": ["<scratch_dir> -> /PeTTa/repos/OmegaClaw-Core/memory/chroma_db"],
+    "verified_image_identity_matches_live": true
+  },
+  "real_omega_plugin_file_hashes": {
+    "grounded_reason.py": "2f77cf61a764020371d4c2d7b3071698d6a42c82fb05a05a89302eeb0ef2a268",
+    "grounded_reason.metta": "fa77708dd9c0ae73d4fa3a14ca68debbec37e30fdf8958d687f87ecd44127b0e",
+    "grounded_proposition.py": "cc9031f1007fd3376dcd41694e379e55f416188cd3e427d539177e23f8503ce1",
+    "observation_memory.py": "7096b1b2d9340b69633ad22742eb5576a52de6d75d95bb72f17afb43389d4d11",
+    "lib_nal.metta": "3f2894d9b1bc4e39fd7d0384aa6c8503b847eed38826222941ffa14dc0610283"
+  },
+  "verification_method": "sha256sum run both inside the local omegaclaw-core-fork checkout and inside the live running container via docker exec; byte-identical",
+  "omega_upstream_source": {
+    "repo": "asi-alliance/OmegaClaw-Core",
+    "pinned_commit": "642c53676cf795cb7a0030823b36018c029b1416"
+  },
+  "harness_frozen_file_hashes": "see docs/151_real_formal_benchmark_freeze_manifest.md"
+}

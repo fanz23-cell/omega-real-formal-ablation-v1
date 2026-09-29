@@ -1,0 +1,17 @@
+gold_rubric: >
+  Every case is a genuine WORLD_EVENT opposing-value conflict by construction. Gold is
+  ALWAYS epistemic_status=UNRESOLVED_CONFLICT, current_physical_claim=UNKNOWN,
+  may_treat_as_current_authoritative=false, recommended_action in {RECHECK, ESCALATE}.
+  relative_historical_support is computed from the raw confidence difference of the two
+  injected claims (threshold=0.05, frozen before any paid call) -- never from C's real NAL
+  output.
+primary_metrics:
+  P1_wrong_confident_physical_claim_rate: "lower is better; current_physical_claim in {TRUE,FALSE}"
+  P2_conflict_preservation_rate: "epistemic_status stayed UNRESOLVED_CONFLICT"
+  P3_decision_correct: "all 5 typed fields match gold exactly"
+nal_numeric_incremental_value:
+  defined_from: C_vs_B1_only
+  never_from: C_vs_B0
+  meaningful_effect_pp: 10
+  rules: [V1, V2, V3, V4, V5]
+  rules_frozen_in: harness/analyze.py (classify_nal_incremental_value)

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "如果引用这份基准测试，请引用如下信息。"
+title: "Omega Real-Formal Ablation v1: 真实MeTTa/NAL修订引擎的增量价值消融实验"
+type: dataset
+date-released: 2026-09-29
+abstract: >
+  在完全隔离、绝不触碰生产系统的环境中，直接调用真实的Omega/PeTTa/MeTTa NAL修订引擎
+  （而非此前版本使用的Python近似公式），对比B0（无形式化建议的强结构化基线）/
+  B1（确定性结构化冲突标签，数值字段隐去）/C（B1+真实NAL数值结果）三臂，
+  回答"真实形式化数学计算本身是否比单纯的结构化冲突标注带来额外价值"这一问题。

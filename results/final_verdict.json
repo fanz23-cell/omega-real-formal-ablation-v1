@@ -1,0 +1,116 @@
+{
+  "path_grade": "B",
+  "production_modified": false,
+  "real_metta_verified": true,
+  "information_fairness": "PASS",
+  "primary_comparison": "C_vs_B1",
+  "b0_metrics": {
+    "decision_correct": {
+      "n": 189,
+      "rate": 0.7248677248677249,
+      "count_true": 137
+    },
+    "wrong_confident_physical_claim": {
+      "n": 189,
+      "rate": 0.24338624338624337,
+      "count_true": 46
+    },
+    "conflict_preserved": {
+      "n": 189,
+      "rate": 0.8359788359788359,
+      "count_true": 158
+    }
+  },
+  "b1_metrics": {
+    "decision_correct": {
+      "n": 189,
+      "rate": 0.9259259259259259,
+      "count_true": 175
+    },
+    "wrong_confident_physical_claim": {
+      "n": 189,
+      "rate": 0.021164021164021163,
+      "count_true": 4
+    },
+    "conflict_preserved": {
+      "n": 189,
+      "rate": 0.9788359788359788,
+      "count_true": 185
+    }
+  },
+  "c_metrics": {
+    "decision_correct": {
+      "n": 189,
+      "rate": 0.9153439153439153,
+      "count_true": 173
+    },
+    "wrong_confident_physical_claim": {
+      "n": 189,
+      "rate": 0.021164021164021163,
+      "count_true": 4
+    },
+    "conflict_preserved": {
+      "n": 189,
+      "rate": 0.9788359788359788,
+      "count_true": 185
+    }
+  },
+  "b1_minus_b0": {
+    "ci": {
+      "point_estimate_pp": 20.11,
+      "ci95_lo_pp": 13.23,
+      "ci95_hi_pp": 27.51,
+      "n_pairs": 189,
+      "n_resamples": 5000,
+      "seed": 12345
+    },
+    "sign_test": {
+      "a_wrong_b_right": 46,
+      "a_right_b_wrong": 8,
+      "n_discordant": 54,
+      "p_two_sided": 1.3843354973452904e-07
+    }
+  },
+  "c_minus_b1": {
+    "ci": {
+      "point_estimate_pp": -1.06,
+      "ci95_lo_pp": -4.76,
+      "ci95_hi_pp": 2.65,
+      "n_pairs": 189,
+      "n_resamples": 5000,
+      "seed": 12345
+    },
+    "sign_test": {
+      "a_wrong_b_right": 5,
+      "a_right_b_wrong": 7,
+      "n_discordant": 12,
+      "p_two_sided": 0.7744140625
+    }
+  },
+  "c_minus_b0": {
+    "ci": {
+      "point_estimate_pp": 19.05,
+      "ci95_lo_pp": 12.17,
+      "ci95_hi_pp": 26.46,
+      "n_pairs": 189,
+      "n_resamples": 5000,
+      "seed": 12345
+    },
+    "sign_test": {
+      "a_wrong_b_right": 45,
+      "a_right_b_wrong": 9,
+      "n_discordant": 54,
+      "p_two_sided": 7.288430776686283e-07
+    }
+  },
+  "nal_numeric_incremental_value": "NOT_SUPPORTED",
+  "full_package_value": "C beats B0 by +19.05pp but this is fully explained by B1 (structural label alone, no real math) beating B0 by +20.11pp -- the package-level gain is not attributable to the real NAL numeric computation specifically",
+  "limitations": [
+    "only revision operator tested (matches live production canary scope)",
+    "PATH_GRADE_B ingestion adapter used (no live production caller of record_world_event exists today)",
+    "per-geometry cells (n=21) individually underpowered for small effects",
+    "single LLM (claude-sonnet-4-5-20250929) tested",
+    "a real, concrete OVERTRUSTED_FORMAL_OUTPUT failure mode found in 2/12 discordant cases (doc 155), net-zero in aggregate but real at the mechanism level"
+  ],
+  "package_sha256": "e55d6ae5eba5c25523a3c7f3a31f75e6fdce99ca1c572966e78f1391534c415c"
+}

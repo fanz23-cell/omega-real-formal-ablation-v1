@@ -1,0 +1,1010 @@
+[
+  {
+    "case_id": "3efc6989bd7c2e95",
+    "geometry": "G1_SYMMETRIC_MEDIUM",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "APPROX_BALANCED",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_RECENCY"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      }
+    },
+    "raw": {
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_RECENCY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1019,
+        "output_tokens": 105
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1081,
+        "output_tokens": 100
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1085,
+        "output_tokens": 100
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.888888888888889,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.5,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B0",
+      "C",
+      "B1"
+    ]
+  },
+  {
+    "case_id": "06adce94ddb7857e",
+    "geometry": "G2_SYMMETRIC_HIGH",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "APPROX_BALANCED",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_RECENCY"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      }
+    },
+    "raw": {
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_RECENCY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 988,
+        "output_tokens": 105
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1051,
+        "output_tokens": 100
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1054,
+        "output_tokens": 100
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.9847715736040609,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.5,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B0",
+      "C",
+      "B1"
+    ]
+  },
+  {
+    "case_id": "b438606d5759bab5",
+    "geometry": "G3_SYMMETRIC_WEAK",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "APPROX_BALANCED",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_OTHER"
+      }
+    },
+    "raw": {
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1049,
+        "output_tokens": 100
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1052,
+        "output_tokens": 100
+      },
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_OTHER\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 986,
+        "output_tokens": 103
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.5185185185185186,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.5,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "C",
+      "B1",
+      "B0"
+    ]
+  },
+  {
+    "case_id": "2ceff3ea7c8763e5",
+    "geometry": "G4_TRUE_STRONG",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "TRUE_STRONGER",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_SOURCE_TRUST"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      }
+    },
+    "raw": {
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_SOURCE_TRUST\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1017,
+        "output_tokens": 104
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1085,
+        "output_tokens": 98
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1083,
+        "output_tokens": 98
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.9528795811518325,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.9395604395604396,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B0",
+      "C",
+      "B1"
+    ]
+  },
+  {
+    "case_id": "f153a064daa38472",
+    "geometry": "G5_FALSE_STRONG",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "FALSE_STRONGER",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B0": {
+        "epistemic_status": "SUPPORTED_CURRENT",
+        "current_physical_claim": "FALSE",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ACT",
+        "may_treat_as_current_authoritative": true,
+        "reason_class": "OWN_JUDGMENT_RECENCY"
+      }
+    },
+    "raw": {
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1044,
+        "output_tokens": 98
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1046,
+        "output_tokens": 98
+      },
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"SUPPORTED_CURRENT\",\n  \"current_physical_claim\": \"FALSE\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ACT\",\n  \"may_treat_as_current_authoritative\": true,\n  \"reason_class\": \"OWN_JUDGMENT_RECENCY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 978,
+        "output_tokens": 99
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": true,
+        "conflict_preserved": false,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.9528795811518325,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.06043956043956051,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B1",
+      "C",
+      "B0"
+    ]
+  },
+  {
+    "case_id": "9a1fa2a9a7c36363",
+    "geometry": "G6_NEAR_TIE_HIGH",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "APPROX_BALANCED",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "APPROX_BALANCED",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_OTHER"
+      }
+    },
+    "raw": {
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1119,
+        "output_tokens": 98
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1117,
+        "output_tokens": 98
+      },
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"APPROX_BALANCED\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_OTHER\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1051,
+        "output_tokens": 103
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.9479221462388217,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.5554938956714761,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "C",
+      "B1",
+      "B0"
+    ]
+  },
+  {
+    "case_id": "75fbe458c119a9c1",
+    "geometry": "G7_NEAR_TIE_MEDIUM",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "APPROX_BALANCED",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_RECENCY"
+      }
+    },
+    "raw": {
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1064,
+        "output_tokens": 98
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1066,
+        "output_tokens": 98
+      },
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_RECENCY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 998,
+        "output_tokens": 103
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "APPROX_BALANCED",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.8237600470495982,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.5237981913374583,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B1",
+      "C",
+      "B0"
+    ]
+  },
+  {
+    "case_id": "d928a2e411a7b62e",
+    "geometry": "G8_HIGH_VS_LOW",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "TRUE_STRONGER",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B0": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "RECHECK",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "OWN_JUDGMENT_SOURCE_TRUST"
+      },
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "TRUE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      }
+    },
+    "raw": {
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"RECHECK\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"OWN_JUDGMENT_SOURCE_TRUST\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1030,
+        "output_tokens": 104
+      },
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1096,
+        "output_tokens": 98
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"TRUE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1093,
+        "output_tokens": 98
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "TRUE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.99,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.9966442953020135,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B0",
+      "B1",
+      "C"
+    ]
+  },
+  {
+    "case_id": "618c9f4ca13754da",
+    "geometry": "G9_REVERSE_HIGH_LOW",
+    "scale_n": 10,
+    "invalidated": false,
+    "gold": {
+      "epistemic_status": "UNRESOLVED_CONFLICT",
+      "current_physical_claim": "UNKNOWN",
+      "relative_historical_support": "FALSE_STRONGER",
+      "may_treat_as_current_authoritative": false,
+      "recommended_action_acceptable": [
+        "RECHECK",
+        "ESCALATE"
+      ]
+    },
+    "answers": {
+      "B1": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      },
+      "B0": {
+        "epistemic_status": "SUPPORTED_CURRENT",
+        "current_physical_claim": "FALSE",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ACT",
+        "may_treat_as_current_authoritative": true,
+        "reason_class": "OWN_JUDGMENT_SOURCE_TRUST"
+      },
+      "C": {
+        "epistemic_status": "UNRESOLVED_CONFLICT",
+        "current_physical_claim": "UNKNOWN",
+        "relative_historical_support": "FALSE_STRONGER",
+        "recommended_action": "ESCALATE",
+        "may_treat_as_current_authoritative": false,
+        "reason_class": "FOLLOWED_ADVISORY"
+      }
+    },
+    "raw": {
+      "B1": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1074,
+        "output_tokens": 98
+      },
+      "B0": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"SUPPORTED_CURRENT\",\n  \"current_physical_claim\": \"FALSE\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ACT\",\n  \"may_treat_as_current_authoritative\": true,\n  \"reason_class\": \"OWN_JUDGMENT_SOURCE_TRUST\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1008,
+        "output_tokens": 100
+      },
+      "C": {
+        "raw_text": "```json\n{\n  \"epistemic_status\": \"UNRESOLVED_CONFLICT\",\n  \"current_physical_claim\": \"UNKNOWN\",\n  \"relative_historical_support\": \"FALSE_STRONGER\",\n  \"recommended_action\": \"ESCALATE\",\n  \"may_treat_as_current_authoritative\": false,\n  \"reason_class\": \"FOLLOWED_ADVISORY\"\n}\n```",
+        "parse_status": "EXTRACTED_JSON",
+        "input_tokens": 1071,
+        "output_tokens": 98
+      }
+    },
+    "flags": {
+      "B0": {
+        "decision_correct": false,
+        "wrong_confident_physical_claim": true,
+        "conflict_preserved": false,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "B1": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      },
+      "C": {
+        "decision_correct": true,
+        "wrong_confident_physical_claim": false,
+        "conflict_preserved": true,
+        "gold": {
+          "epistemic_status": "UNRESOLVED_CONFLICT",
+          "current_physical_claim": "UNKNOWN",
+          "relative_historical_support": "FALSE_STRONGER",
+          "may_treat_as_current_authoritative": false,
+          "recommended_action_acceptable": "{'RECHECK', 'ESCALATE'}"
+        }
+      }
+    },
+    "real_advisory": {
+      "authority": "NONE",
+      "confidence": 0.99,
+      "epistemic_interpretation": "UNRESOLVED_CONFLICT_BETWEEN_OPPOSING_GROUNDED_CLAIMS",
+      "frequency": 0.00335570469798658,
+      "recommended_cognitive_action": "ESCALATE_OR_RECHECK"
+    },
+    "execution_order": [
+      "B1",
+      "B0",
+      "C"
+    ]
+  }
+]

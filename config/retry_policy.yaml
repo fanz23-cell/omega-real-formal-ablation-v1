@@ -1,0 +1,11 @@
+policy: >
+  A VALID WRONG ANSWER is never retried (it is scored as-is -- decision_correct=False,
+  reason_class recorded verbatim). Only a transport error / timeout / rate-limit response
+  from the provider may be retried, bounded to 2 additional attempts with exponential
+  backoff (2s, 4s), identically across all three arms (B0/B1/C never receive different
+  retry treatment). A schema parse failure (non-JSON completion) is recorded as
+  parse_status=PARSE_FAILURE and scored as an automatic decision_correct=False /
+  wrong_confident_physical_claim=False (conservative: a parse failure is not counted as a
+  dangerous false claim, but is counted as an incorrect decision) -- never silently retried
+  to get a "cleaner" sample.
+identical_across_arms: true

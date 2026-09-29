@@ -1,0 +1,38 @@
+{
+  "frozen_at_utc": null,
+  "files": {
+    "world_case_generator.py": "1e0c7b7224dc3373547dcc531a7e2483cf54f1bbb4968b6657485fab20a23cec",
+    "oracle.py": "5be8328db2cc512efde49e774f51e258abff4de7060df209873ba38816a67b60",
+    "contestants.py": "ceb086537ffad22c427487bb868d1c85c520d1bdc238ff60fab871fb9adedb86",
+    "fairness_check.py": "51283e97f7648731b5363ed2e32ab714ae5779aed4853050226e6de265270bfa",
+    "scorer.py": "ecb91e2cb5af979428b0b7c031a05039c31f8ef18e813687341ac30c3f052b23",
+    "real_metta_runner.py": "2821e76b76536874eb71d2ecbdbf203776cbb389d0a7ab95a9e72265ff8b6443",
+    "negative_controls.py": "abf8264159de56447177feef8786170673f4b17f8233f97715579896c81714b8",
+    "llm_client.py": "1311cbf01244599597be2954bd7e56e7bdcc08d16acda7507e7e67f3e073bf96",
+    "run_confirmatory.py": "c6368a4b1eb99aa03ff0d9320200af2223ae18fb9c5265c764798fbbcb3ad0cf"
+  },
+  "config": {
+    "model": "claude-sonnet-4-5-20250929",
+    "temperature": 0.0,
+    "max_tokens": 300,
+    "timeout_s": 60,
+    "retry_policy": "none (a valid parse failure is scored PARSE_FAILURE, never retried; only a transport/timeout error may be retried, bounded, identically across all arms)",
+    "execution_order_seed": 20260928,
+    "bootstrap_seed": 12345,
+    "relative_historical_support_threshold": 0.05,
+    "practically_meaningful_effect_pp": 10,
+    "confirmatory_geometries": 9,
+    "confirmatory_scales": [
+      10,
+      100,
+      1000
+    ],
+    "confirmatory_reps_per_cell": 7,
+    "confirmatory_n_cases": 189,
+    "calibration_scales": [
+      10
+    ],
+    "calibration_reps_per_cell": 1,
+    "calibration_n_cases": 9
+  }
+}
